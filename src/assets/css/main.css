@@ -12,7 +12,6 @@
   align-content: center;
 }
 
-
 /* Assign grid areas */
 .nav {
   grid-area: nav;

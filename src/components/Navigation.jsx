@@ -3,8 +3,10 @@ import React from 'react';
 const Navigation = React.memo(() => {
   return (
   <nav className='nav'>
-    <a href="/" className='logo'>Home</a> 
-    <a href="/about" className='logo'>about</a> 
+    <h1>Navigation</h1>
+    <hr />
+    {/* <a href="/" >Home</a>  */}
+    {/* <a href="/about" >about</a>  */}
   </nav>)
 })
 

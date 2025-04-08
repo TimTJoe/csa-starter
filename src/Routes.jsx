@@ -2,9 +2,7 @@ import React from 'react';
 
 import Root from "@components/Root";
 import Home from "@components/Home"
-import {BusinessRoutes} from '@components/Business';
-import {FreelancerRoutes} from "@components/Freelancer"
-import {JobRoutes} from "@components/Job"
+import {AboutRoutes} from '@components/About';
 
 const AppRoutes = [
   {
@@ -12,9 +10,7 @@ const AppRoutes = [
     element: <Root />,
     children: [
      { index: true, element: <Home />},
-      BusinessRoutes,
-      FreelancerRoutes,
-      JobRoutes
+      AboutRoutes,
     ]
   }
 ]
